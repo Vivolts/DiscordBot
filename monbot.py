@@ -87,7 +87,7 @@ async def on_ready():
 
     while True:
         await check_minecraft_server()
-        await asyncio.sleep(30)  # Attendre 30 secondes avant la prochaine vérification
+        await asyncio.sleep(10)  # Attendre 30 secondes avant la prochaine vérification
 
 # Lancer le bot
 client.run(TOKEN)
