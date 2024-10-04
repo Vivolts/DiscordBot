@@ -4,7 +4,7 @@ from mcstatus import JavaServer
 import asyncio
 
 # Récupérer le token du bot depuis une variable d'environnement
-TOKEN = os.environ.get('DISCORD_BOT_TOKEN')
+TOKEN = os.environ.get('TOKEN')
 
 # Remplace par l'IP et le port de ton serveur Minecraft.
 MINECRAFT_SERVER_IP = "91.197.6.221:25579"
