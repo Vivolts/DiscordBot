@@ -79,7 +79,7 @@ async def send_player_status(message):
         await channel.send(message)
 
     # Envoyer un message privé à l'utilisateur spécifié
-    user = await client.fetch_user(USER_ID)  # Récupérer l'utilisateur par son ID
+    user = await client.fetch_user(595193821357146122)  # Récupérer l'utilisateur par son ID
     if user is None:
         print("Erreur : Impossible de trouver l'utilisateur avec l'ID spécifié.")
     else:
